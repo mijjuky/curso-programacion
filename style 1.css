@@ -1,0 +1,36 @@
+h1{
+    color: rgb(255, 0, 0);
+    font-family: Arial;
+    background-color: black;
+    width: 50%; 
+    text-align: center;
+    }
+.marco1{
+    padding: 20px;
+    width: 200px;
+    border: 1px solid #000;
+    }
+h2{
+    background-color: rgb(43, 255, 0);
+    width: 11%;
+    }
+h3{
+    background-color: rgb(43, 255, 0);
+    width: 4%;
+    }
+h4{
+    background-color: rgb(43, 255, 0);
+    width: 3%;
+    }
+h5{
+   font-family: arial;
+   background-color: crimson;
+   width: 7%;
+    }
+p{
+    color: deeppink;
+    font-family: cursive;
+}
+body{
+    background-color: rgb(121, 108, 108);
+}
