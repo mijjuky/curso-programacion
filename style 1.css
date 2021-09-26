@@ -1,39 +1,84 @@
 h1{
+    margin-left: 20px;
     color: rgb(255, 0, 0);
     font-family: Arial;
     background-color: black;
     width: 50%; 
     text-align: center;
-    }
-.marco1{
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 0 0 15px rgb(255, 21, 21)
+}
+
+.marco{
     text-align: center;
-    padding: 20px;
+    margin-left: 250px;
+    padding: 0px;
     width: 200px;
     height: 200px;
-    border: 1px solid #000;
+    border: 10px solid #000;
     cursor: pointer;
-    }
+    border-radius: 0px 10px 10px 10px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
 h2{
+    margin-left: 20px;
     background-color: rgb(43, 255, 0);
-    width: 11%;
-    }
+    width: 10%;
+    border-radius: 0px 10px 0px 10px;
+}
+
 h3{
+    margin-left: 20px;
     background-color: rgb(43, 255, 0);
     width: 4%;
-    }
+    border-radius: 0px 10px 0px 10px;
+}
+
 h4{
+    margin-left: 20px;
     background-color: rgb(43, 255, 0);
     width: 3%;
-    }
+    border-radius: 0px 10px 0px 10px;
+}
+
 h5{
-   font-family: arial;
+    margin-left: 20px;
+   font-family: 'Courier New', Courier, monospace;
    background-color: crimson;
-   width: 7%;
-    }
+   width: 8%;
+   border-radius: 0px 10px 0px 10px;
+}
+
 p{
+    margin-left: 20px;
     color: deeppink;
     font-family: cursive;
 }
+
 body{
-    background-color: rgb(121, 108, 108);
+    background-color: rgb(67, 62, 46);
+}
+
+.heart {
+    margin: auto;
+    position: relative;
+    height: 160px;
+    width: 100px;
+    background: rgb(247, 11, 101);
+    border-radius: 200px 200px 0 0;
+    transform: rotate(45deg);
+}
+
+.heart::before{
+    margin: auto;
+    content: "";
+    position: absolute;
+    background: rgb(247, 11, 101);
+    height: 160px;
+    width: 100px;
+    transform: rotate(-90deg);
+    border-radius: 200px 200px 0 0;
+    left: -30px;
+    top: 30px;
 }
